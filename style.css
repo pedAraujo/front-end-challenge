@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+body {/*caracteristicas para todos os objetos em <body>*/
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+}
+
+div#interface{
+    width: 1500px;
+    height: 2015px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    margin: -20px auto 0px auto; /*cima, direita, baixo, esquerda*/
+    position: relative;
+}
+/*======================================================================*/
+/*============================HEADER SETTINGS===========================*/
+/*======================================================================*/
+
+header#header {
+    position: absolute;
+    width: 1500px;
+    height: 319px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+header#header h1 {
+    position: absolute;
+    top: 92px;
+    left: 571px;
+    width: 358px;
+    height: 48px;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+header#header h2{
+    position: absolute;
+    top: 69px;
+    left: 635px;
+    width: 227px;
+    height: 23px;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+header#header h3{
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 164px;
+    left: 476px;
+    width: 548px;
+    height: 16px;
+    font-size: 14pt;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{ /*aplica no container de id menu nos elementos ul*/
+    list-style: none; /*remove as bolinhas das listas*/
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 230px;
+    left: 371px;
+}
+
+nav#menu li {
+    display: inline-block; /*exibe itens lista lado a lado*/
+    color: #888888;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+
+/*======================================================================*/
+/*============================SECTION SETTINGS===========================*/
+/*======================================================================*/
